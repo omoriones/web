@@ -1,7 +1,5 @@
-import { Prueba } from './_components/Prueba'
-
 function App() {
-  return <Prueba />
+  return <main>My Pokédex</main>
 }
 
 export default App
