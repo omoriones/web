@@ -1,7 +1,7 @@
-import { Prueba } from './_components/Prueba';
+import { Prueba } from './_components/Prueba'
 
 function App() {
-  return <Prueba />;
+  return <Prueba />
 }
 
-export default App;
+export default App

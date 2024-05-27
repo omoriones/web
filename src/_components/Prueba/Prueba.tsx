@@ -1,5 +1,5 @@
-import { FC } from 'react';
+import { FC } from 'react'
 
 export const Prueba: FC = () => {
-  return <div>Prueba</div>;
-};
+  return <div>Prueba</div>
+}
