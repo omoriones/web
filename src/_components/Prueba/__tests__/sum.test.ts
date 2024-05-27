@@ -1,5 +1,5 @@
-describe("Name of the group", () => {
-  it("should ", () => {
+describe('sum', () => {
+  it('should sum', () => {
     expect(sum(1, 2)).toEqual(3);
   });
 });

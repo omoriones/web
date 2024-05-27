@@ -1,8 +1,7 @@
-import "./App.css";
-import { Test } from "./_components/Test";
+import { Prueba } from './_components/Prueba';
 
 function App() {
-  return <Test />;
+  return <Prueba />;
 }
 
 export default App;
