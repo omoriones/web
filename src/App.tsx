@@ -1,5 +1,5 @@
 function App() {
-  return <main>Lele</main>
+  return <main>My pokedex</main>
 }
 
 export default App
