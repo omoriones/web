@@ -1,0 +1,14 @@
+.imageCoverContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 100%;
+	max-width: var(--size-max-width);
+	padding: var(--size-padding-lateral);
+	gap: var(--space-s)
+}
+
+.imageCoverImage {
+	width: 100%;
+	border-radius: var(--corner-radius);
+}

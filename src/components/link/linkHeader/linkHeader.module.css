@@ -1,0 +1,43 @@
+
+a.link {
+	padding: 3px 12px;
+	color: var(--color-content-default);
+	text-decoration: none;
+	border-radius: var(--corner-radius);
+	outline: 2px solid transparent;
+	outline-offset: -2px;
+	transition: outline 0.1s ease-out;
+}
+
+a.link:hover {
+	outline: 2px solid var(--color-content-default);
+	transition: outline 0.1s ease-out;
+}
+
+.toggle {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 8px !important;
+}
+
+.toggleRotate {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 8px !important;
+	transition: transform 0.1s ease-out;
+}
+
+.toggleRotate:hover {
+	transform: rotate(30deg);
+}
+
+.toggleIcon {
+	width: 24px;
+	height: 24px;
+}
+
+[data-theme="dark"] .toggleIcon {
+	filter: invert(1);
+ }

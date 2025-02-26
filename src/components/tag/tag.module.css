@@ -1,0 +1,14 @@
+.tag {
+    position: absolute;
+    display: flex;
+    bottom: 24px;
+    left: 24px;
+    padding: 2px 8px;
+    align-items: center;
+    border-radius: 48px;
+    background: var(--neutral-0);
+}
+
+.tag small {
+	color: var(--neutral-900);
+}

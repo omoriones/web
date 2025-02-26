@@ -1,5 +1,18 @@
-function App() {
-  return <main>My pokedex</main>
-}
+import { Header } from "./components/header"
+import { Hero } from "./components/hero"
+import { ListProjects } from "./components/listProjects"
+import { Footer } from "./components/footer"
 
-export default App
+
+function App() {
+  return (
+    <>
+      <Header level={"homepage"} />
+      <Hero />
+      <ListProjects />
+      <Footer />
+    </>
+  )
+};
+
+export default App;
