@@ -20,9 +20,7 @@ export const LinkHeader: React.FC<LinkHeaderProps> = ({ label, href, alt, iconSr
 		<a href={href} className={classes.link}><p>{label}</p></a> : 
 		(!onClick) ?
 			<a href={href} className={`${classes.toggle} ${classes.link}`}><p>{label}</p><img className={classes.toggleIcon} src={iconSrc} onClick={onClick} alt={alt}/></a> :
-			(rotate) ?
-				<a className={`${classes.toggle} ${classes.link}`} onClick={onClick}><p>{label}</p><img className={classes.toggleIcon} src={iconSrc} alt={alt}/></a> :
-				<a className={`${classes.toggleRotate} ${classes.link}`} onClick={onClick}><p>{label}</p><img className={classes.toggleIcon} src={iconSrc} alt={alt}/></a>
+			<a className={`${classes.toggleRotate} ${classes.link}`} onClick={onClick}><p>{label}</p><img className={classes.toggleIcon} src={iconSrc} alt={alt}/></a>
 
   );
 
