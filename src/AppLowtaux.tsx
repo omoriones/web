@@ -65,7 +65,7 @@ function AppLowtaux() {
       />
 
       <ImagePDP 
-        name01="src/assets/images/lowtaux/lowtaux-01.png"
+        name01="src/assets/images/lowtaux/lowtaux-01.jpg"
 		  alt="Lowtaux project"
       />
 
@@ -82,7 +82,7 @@ function AppLowtaux() {
       />
 
       <ImagePDP 
-        name01="src/assets/images/lowtaux/lowtaux-02.png"
+        name01="src/assets/images/lowtaux/lowtaux-02.jpg"
 		  alt="Lowtaux project"
       />
 
@@ -109,7 +109,7 @@ function AppLowtaux() {
 
 
       <ImagePDP 
-        name01="src/assets/images/lowtaux/lowtaux-03.png"
+        name01="src/assets/images/lowtaux/lowtaux-03.jpg"
 		  alt="Lowtaux project"
       />
 
@@ -134,13 +134,13 @@ function AppLowtaux() {
 
 
       <ImagePDP 
-        name01="src/assets/images/lowtaux/lowtaux-04.png"
-        name02="src/assets/images/lowtaux/lowtaux-05.png"
-        name03="src/assets/images/lowtaux/lowtaux-06.png"
-        name04="src/assets/images/lowtaux/lowtaux-07.png"
-        name05="src/assets/images/lowtaux/lowtaux-08.png"
-        name06="src/assets/images/lowtaux/lowtaux-09.png"
-        name07="src/assets/images/lowtaux/lowtaux-10.png"
+        name01="src/assets/images/lowtaux/lowtaux-04.jpg"
+        name02="src/assets/images/lowtaux/lowtaux-05.jpg"
+        name03="src/assets/images/lowtaux/lowtaux-06.jpg"
+        name04="src/assets/images/lowtaux/lowtaux-07.jpg"
+        name05="src/assets/images/lowtaux/lowtaux-08.jpg"
+        name06="src/assets/images/lowtaux/lowtaux-09.jpg"
+        name07="src/assets/images/lowtaux/lowtaux-10.jpg"
 		  alt="Lowtaux project"
       />
 

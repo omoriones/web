@@ -95,7 +95,7 @@ function AppHuru() {
       />
 
       <ImagePDP 
-        name01="src/assets/images/huru/huru-01.png"
+        name01="src/assets/images/huru/huru-01.jpg"
 		  alt="Huru project"
       />
 
@@ -120,7 +120,7 @@ function AppHuru() {
 
 
       <ImagePDP 
-        name01="src/assets/images/huru/huru-02.png"
+        name01="src/assets/images/huru/huru-02.jpg"
 		  alt="Huru project"
       />
 
@@ -147,7 +147,7 @@ function AppHuru() {
 
 
       <ImagePDP 
-        name01="src/assets/images/huru/huru-03.png"
+        name01="src/assets/images/huru/huru-03.jpg"
 		  alt="Huru project"
       />
 
@@ -164,10 +164,10 @@ function AppHuru() {
       />
 
       <ImagePDP 
-        name01="src/assets/images/huru/huru-04.png"
-        name02="src/assets/images/huru/huru-05.png"
-        name03="src/assets/images/huru/huru-06.png"
-        name04="src/assets/images/huru/huru-07.png"
+        name01="src/assets/images/huru/huru-04.jpg"
+        name02="src/assets/images/huru/huru-05.jpg"
+        name03="src/assets/images/huru/huru-06.jpg"
+        name04="src/assets/images/huru/huru-07.jpg"
 		  alt="Huru project"
       />
 

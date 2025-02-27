@@ -32,14 +32,14 @@ function AppAbout() {
       />
 
       <Gallery
-        mediaName01="src/assets/images/omoriones/IMG_4736_1_11zon.jpg"
+        mediaName01="src/assets/images/omoriones/omoriones-01.jpg"
         tag01={<Tag text="Catalonia, Spain"/>}
         mediaType01="image"
 		  alt01="Hiking in Catalonia, Spain "
-        mediaName02="src/assets/images/omoriones/IMG_3400.mp4"
+        mediaName02="src/assets/images/omoriones/omoriones-02.mp4"
         tag02={<Tag text="Catalonia, Spain"/>}
         mediaType02="video"
-        mediaName03="src/assets/images/omoriones/IMG_9950.mp4"
+        mediaName03="src/assets/images/omoriones/omoriones-03.mp4"
         tag03={<Tag text="Navarre, Spain"/>}
         mediaType03="video"
       />
@@ -95,15 +95,15 @@ function AppAbout() {
 
 
       <Gallery
-        mediaName01="src/assets/images/omoriones/IMG_0104_1_11zon.jpg"
+        mediaName01="src/assets/images/omoriones/omoriones-04.jpg"
         tag01={<Tag text="Catalonia, Spain"/>}
         mediaType01="image"
 		  alt01="Climbing a summit in Catalonia, Spain"
-        mediaName02="src/assets/images/omoriones/f9d7c398-b285-4bad-9890-1d2dcb38b23e.jpeg"
+        mediaName02="src/assets/images/omoriones/omoriones-05.jpg"
         tag02={<Tag text="Navarre, Spain"/>}
         mediaType02="image"
 		  alt02="Up on a hill in Navarre, Spain"
-        mediaName03="src/assets/images/omoriones/e0bc107a-4a57-420e-92b4-15025f03d579.jpeg"
+        mediaName03="src/assets/images/omoriones/omoriones-06.jpg"
         tag03={<Tag text="Basque Country, Spain"/>}
         mediaType03="image"
 		  alt03="Views from the top of the Basque Country"
@@ -145,13 +145,13 @@ function AppAbout() {
 
 
       <Gallery
-        mediaName01="src/assets/images/omoriones/IMG_6685.mov"
+        mediaName01="src/assets/images/omoriones/omoriones-07.mp4"
         tag01={<Tag text="Osaka, Japan"/>}
         mediaType01="video"
-        mediaName02="src/assets/images/omoriones/IMG_7790.mov"
+        mediaName02="src/assets/images/omoriones/omoriones-08.mp4"
         tag02={<Tag text="Tokyo, Japan"/>}
         mediaType02="video"
-        mediaName03="src/assets/images/omoriones/IMG_7332.mov"
+        mediaName03="src/assets/images/omoriones/omoriones-09.mp4"
         tag03={<Tag text="Kyoto, Japan"/>}
         mediaType03="video"
       />

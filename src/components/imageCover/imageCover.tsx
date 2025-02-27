@@ -18,7 +18,7 @@ export const ImageCover: React.FC<ImageCoverProps> = ({ src, alt }) => {
         return () => clearInterval(interval);
     }, []);
 
-    const currentImage = `${src}-0${currentIndex}.png`;
+    const currentImage = `${src}-0${currentIndex}.jpg`;
 
     return (
         <div className={classes.imageCoverContainer}>

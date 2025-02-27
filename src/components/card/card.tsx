@@ -47,7 +47,7 @@ export const Card: React.FC<CardProps> = ({ projectName, projectSubtitle, access
       onMouseLeave={stopImageRotation}
     >
       <img
-        src={`src/assets/images/${projectNameLowercase}/cover-${projectNameLowercase}-0${imageIndex}.png`}
+        src={`src/assets/images/${projectNameLowercase}/cover-${projectNameLowercase}-0${imageIndex}.jpg`}
         className={classes.cardImage}
         alt={`${projectName}`}
       />

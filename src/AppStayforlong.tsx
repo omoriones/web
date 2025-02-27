@@ -76,7 +76,7 @@ function AppStayforlong() {
       />
 
       <ImagePDP
-        name01="src/assets/images/stayforlong/stayforlong-01.png"
+        name01="src/assets/images/stayforlong/stayforlong-01.jpg"
 		  alt="Stayforlong project"
       />
 
@@ -115,12 +115,7 @@ function AppStayforlong() {
       />
 
       <ImagePDP 
-        name01="src/assets/images/stayforlong/stayforlong-02.png"
-        name02="src/assets/images/stayforlong/stayforlong-02-alta.jpg"
-        name03="src/assets/images/stayforlong/stayforlong-02-media.jpg"
-        name04="src/assets/images/stayforlong/stayforlong-02-x2.png"
-        name05="src/assets/images/stayforlong/stayforlong-02-x2-alta.jpg"
-        name06="src/assets/images/stayforlong/stayforlong-02-x2-media.jpg"
+        name01="src/assets/images/stayforlong/stayforlong-02.jpg"
 		  alt="Stayforlong project"
       />
 
@@ -151,7 +146,7 @@ function AppStayforlong() {
 
 
       <ImagePDP 
-        name01="src/assets/images/stayforlong/stayforlong-03.png"
+        name01="src/assets/images/stayforlong/stayforlong-03.jpg"
 		  alt="Stayforlong project"
       />
 
@@ -182,7 +177,7 @@ function AppStayforlong() {
 
 
       <ImagePDP 
-        name01="src/assets/images/stayforlong/stayforlong-04.png"
+        name01="src/assets/images/stayforlong/stayforlong-04.jpg"
 		  alt="Stayforlong project"
       />
 
@@ -203,7 +198,7 @@ function AppStayforlong() {
       />
 
       <ImagePDP 
-        name01="src/assets/images/stayforlong/stayforlong-05.png"
+        name01="src/assets/images/stayforlong/stayforlong-05.jpg"
 		  alt="Stayforlong project"
       />
 
@@ -225,9 +220,9 @@ function AppStayforlong() {
 
 
       <ImagePDP 
-        name01="src/assets/images/stayforlong/stayforlong-06.png"
-        name02="src/assets/images/stayforlong/stayforlong-07.png"
-        name03="src/assets/images/stayforlong/stayforlong-08.png"
+        name01="src/assets/images/stayforlong/stayforlong-06.jpg"
+        name02="src/assets/images/stayforlong/stayforlong-07.jpg"
+        name03="src/assets/images/stayforlong/stayforlong-08.jpg"
 		  alt="Stayforlong project"
       />
 

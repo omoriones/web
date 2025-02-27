@@ -20,7 +20,7 @@ function AppMango() {
 		<Divider />
 
       <ImagePDP
-        name01="src/assets/images/mango/cover-mango-01.png"
+        name01="src/assets/images/mango/cover-mango-01.jpg"
 		  alt="Mango project"
       />
 
@@ -64,7 +64,7 @@ function AppMango() {
       />
 
       <ImagePDP 
-        name01="src/assets/images/mango/mango-01.png"
+        name01="src/assets/images/mango/mango-01.jpg"
 		  alt="Mango project"
       />
 
@@ -93,7 +93,7 @@ function AppMango() {
       />
 
       <ImagePDP 
-        name01="src/assets/images/mango/mango-02.png"
+        name01="src/assets/images/mango/mango-02.jpg"
 		  alt="Mango project"
       />
 
@@ -124,7 +124,7 @@ function AppMango() {
 
 
       <ImagePDP 
-        name01="src/assets/images/mango/mango-03.png"
+        name01="src/assets/images/mango/mango-03.jpg"
 		  alt="Mango project"
       />
 
@@ -149,10 +149,10 @@ function AppMango() {
 
 
       <ImagePDP 
-        name01="src/assets/images/mango/mango-04.png"
-        name02="src/assets/images/mango/mango-05.png"
-        name03="src/assets/images/mango/mango-06.png"
-        name04="src/assets/images/mango/mango-07.png"
+        name01="src/assets/images/mango/mango-04.jpg"
+        name02="src/assets/images/mango/mango-05.jpg"
+        name03="src/assets/images/mango/mango-06.jpg"
+        name04="src/assets/images/mango/mango-07.jpg"
 		  alt="Mango project"
       />
       

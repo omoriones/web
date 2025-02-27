@@ -69,7 +69,7 @@ function AppClubberize() {
       />
 
       <ImagePDP 
-        name01="src/assets/images/clubberize/clubberize-01.png"
+        name01="src/assets/images/clubberize/clubberize-01.jpg"
 		  alt="Clubberize project"
       />
 
@@ -86,7 +86,7 @@ function AppClubberize() {
       />
 
       <ImagePDP 
-        name01="src/assets/images/clubberize/clubberize-02.png"
+        name01="src/assets/images/clubberize/clubberize-02.jpg"
 		  alt="Clubberize project"
       />
 
@@ -115,7 +115,7 @@ function AppClubberize() {
 
 
       <ImagePDP 
-        name01="src/assets/images/clubberize/clubberize-03.png"
+        name01="src/assets/images/clubberize/clubberize-03.jpg"
 		  alt="Clubberize project"
       />
 
@@ -145,7 +145,7 @@ function AppClubberize() {
 
 
       <ImagePDP 
-        name01="src/assets/images/clubberize/clubberize-04.png"
+        name01="src/assets/images/clubberize/clubberize-04.jpg"
 		  alt="Clubberize project"
       />
 
@@ -172,7 +172,7 @@ function AppClubberize() {
       />
 
       <ImagePDP 
-        name01="src/assets/images/clubberize/clubberize-05.png"
+        name01="src/assets/images/clubberize/clubberize-05.jpg"
 		  alt="Clubberize project"
       />
 
@@ -197,9 +197,9 @@ function AppClubberize() {
 
 
       <ImagePDP 
-        name01="src/assets/images/clubberize/clubberize-06.png"
-        name02="src/assets/images/clubberize/clubberize-07.png"
-        name03="src/assets/images/clubberize/clubberize-08.png"
+        name01="src/assets/images/clubberize/clubberize-06.jpg"
+        name02="src/assets/images/clubberize/clubberize-07.jpg"
+        name03="src/assets/images/clubberize/clubberize-08.jpg"
 		  alt="Clubberize project"
       />
 
