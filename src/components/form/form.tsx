@@ -19,7 +19,13 @@ export const Form = () => {
       setStoredPassword(initialPassword);
       localStorage.setItem("storedPassword", initialPassword);
     }
-  }, []);
+
+    // Verificar si el usuario ya está autenticado
+    const authenticated = localStorage.getItem("authenticated");
+    if (authenticated === "true") {
+      navigate("/mango"); // Si ya está autenticado, redirigir automáticamente
+    }
+  }, [navigate]);
 
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault(); // Evita el envío por defecto
