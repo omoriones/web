@@ -1,28 +1,31 @@
-import ReactDOM from "react-dom/client";
-import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
+import ReactDOM from 'react-dom/client'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from 'react-router-dom'
 
-import App from "./App.tsx";
-import About from "./About.tsx";
-import Stayforlong from "./Stayforlong.tsx";
-import Huru from "./Huru.tsx";
-import Clubberize from "./Clubberize.tsx";
-import Lowtaux from "./Lowtaux.tsx";
-import Hypo from "./Hypo.tsx";
-import Private from "./Private.tsx";
-import Mango from "./Mango.tsx";
+import App from './App.tsx'
+import About from './About.tsx'
+import Stayforlong from './Stayforlong.tsx'
+import Huru from './Huru.tsx'
+import Clubberize from './Clubberize.tsx'
+import Lowtaux from './Lowtaux.tsx'
+import Hypo from './Hypo.tsx'
+import Private from './Private.tsx'
+import Mango from './Mango.tsx'
 
-
-import "./index.css";
+import './index.css'
 
 // PrivateRoute component
 const PrivateRoute = ({ children }: { children: JSX.Element }) => {
-	const isAuthenticated = localStorage.getItem("authenticated") === "true";
-	return isAuthenticated ? children : <Navigate to="/private" />;
- };
+  const isAuthenticated = localStorage.getItem('authenticated') === 'true'
+  return isAuthenticated ? children : <Navigate to="/private" />
+}
 
- 
-ReactDOM.createRoot(document.getElementById("root")!).render(
-  <HashRouter>
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <Router>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/about" element={<About />} />
@@ -32,7 +35,14 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       <Route path="/lowtaux" element={<Lowtaux />} />
       <Route path="/hypo" element={<Hypo />} />
       <Route path="/private" element={<Private />} />
-      <Route path="/mango" element={<PrivateRoute><Mango /></PrivateRoute>} />
+      <Route
+        path="/mango"
+        element={
+          <PrivateRoute>
+            <Mango />
+          </PrivateRoute>
+        }
+      />
     </Routes>
-  </HashRouter>
-);
+  </Router>,
+)
