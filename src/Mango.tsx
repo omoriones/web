@@ -11,10 +11,14 @@ import { MoreProjects } from "./components/moreProjects"
 import { LinkSecondary } from "./components/link/linkSecondary"
 import { Divider } from "./components/divider"
 
+import ScrollToTop from "./hooks/ScrollToTop"
 
-function AppMango() {
+
+function Mango() {
   return (
     <>
+		<ScrollToTop />
+
       <Header level={"project"} />
 
 		<Divider />
@@ -198,4 +202,4 @@ function AppMango() {
   );
 };
 
-export default AppMango
+export default Mango

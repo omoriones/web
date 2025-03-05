@@ -12,10 +12,14 @@ import { LinkSecondary } from "./components/link/linkSecondary"
 import { Divider } from "./components/divider"
 import { ImageCover } from "./components/imageCover"
 
+import ScrollToTop from "./hooks/ScrollToTop"
 
-function AppLowtaux() {
+
+function Lowtaux() {
   return (
     <>
+		<ScrollToTop />
+		
       <Header level={"project"} />
 
 		<Divider />
@@ -176,4 +180,4 @@ function AppLowtaux() {
   );
 };
 
-export default AppLowtaux
+export default Lowtaux

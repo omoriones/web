@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import { useState, useRef } from "react";
 import { LinkIcon } from "../link/linkIcon/linkIcon";
 import classes from "./card.module.css";
@@ -12,7 +14,7 @@ interface CardProps {
 export const Card: React.FC<CardProps> = ({ projectName, projectSubtitle, access, totalImages }) => {
 	
   const projectNameLowercase = projectName.toLowerCase();
-  const href = access === "private" ? "private" : projectNameLowercase;
+  const href = access === "private" ? "/private" : "/"+projectNameLowercase;
 
   const [imageIndex, setImageIndex] = useState(1);
   const intervalRef = useRef<number | null>(null);
@@ -40,8 +42,8 @@ export const Card: React.FC<CardProps> = ({ projectName, projectSubtitle, access
   };
 
   return (
-    <a
-      href={href}
+    <Link
+      to={href}
       className={classes.card}
       onMouseEnter={startImageRotation}
       onMouseLeave={stopImageRotation}
@@ -64,6 +66,6 @@ export const Card: React.FC<CardProps> = ({ projectName, projectSubtitle, access
           />
         )}
       </div>
-    </a>
+    </Link>
   );
 };

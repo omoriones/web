@@ -12,10 +12,14 @@ import { LinkSecondary } from "./components/link/linkSecondary"
 import { Divider } from "./components/divider"
 import { ImageCover } from "./components/imageCover"
 
+import ScrollToTop from "./hooks/ScrollToTop"
 
-function AppHypo() {
+
+function Hypo() {
   return (
     <>
+		<ScrollToTop />
+		
       <Header level={"project"} />
 
 		<Divider />
@@ -174,4 +178,4 @@ function AppHypo() {
   );
 };
 
-export default AppHypo
+export default Hypo

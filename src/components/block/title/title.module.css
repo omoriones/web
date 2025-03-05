@@ -1,3 +1,14 @@
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
 .title {
     display: flex;
     width: 100%;
@@ -6,6 +17,9 @@
     flex-direction: column;
     align-items: flex-start;
     gap: var(--size-12);
+	 opacity: 0;
+ 
+	 animation: fadeIn 0.5s ease-in forwards;
 }
 
 /* S (600px and down) */

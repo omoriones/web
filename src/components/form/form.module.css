@@ -1,3 +1,14 @@
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
 form {
 	height: 100vh;
 	display: flex;
@@ -11,7 +22,10 @@ form {
 	gap: 48px;
 	width: 100%;
 	max-width: var(--sizing-block-max);
-	padding: 80px var(--size-padding-lateral);;
+	padding: 80px var(--size-padding-lateral);
+	opacity: 0;
+
+	animation: fadeIn 0.5s ease-in forwards;
 }
 
 .form h3 {

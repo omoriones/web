@@ -13,10 +13,15 @@ import { LinkSecondary } from "./components/link/linkSecondary"
 import { Divider } from "./components/divider"
 import { ImageCover } from "./components/imageCover"
 
+import ScrollToTop from "./hooks/ScrollToTop"
 
-function AppStayforlong() {
+
+function Stayforlong() {
   return (
     <>
+
+		<ScrollToTop />
+
       <Header level={"project"} />
 
 		<Divider />
@@ -276,4 +281,4 @@ function AppStayforlong() {
   );
 };
 
-export default AppStayforlong
+export default Stayforlong

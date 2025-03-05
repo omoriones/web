@@ -11,11 +11,14 @@ import { Prototype } from "./components/block/prototype"
 import { LinkSecondary } from "./components/link/linkSecondary"
 import { Divider } from "./components/divider"
 import { ImageCover } from "./components/imageCover"
+import ScrollToTop from "./hooks/ScrollToTop"
 
 
-function AppHuru() {
+function Huru() {
   return (
     <>
+		<ScrollToTop />
+		
       <Header level={"project"} />
 
 		<Divider />
@@ -202,4 +205,4 @@ function AppHuru() {
   );
 };
 
-export default AppHuru
+export default Huru

@@ -1,10 +1,12 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom"; // Importa el hook useNavigate
 import classes from "./form.module.css";
 
 export const Form = () => {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [storedPassword, setStoredPassword] = useState("");
+  const navigate = useNavigate(); // Inicializa el hook useNavigate
 
   const initialPassword = "React.35!"; // Contraseña inicial fija
 
@@ -22,12 +24,12 @@ export const Form = () => {
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault(); // Evita el envío por defecto
 
-    // 🔄 Resetea la autenticación antes de validar
+    // Resetea la autenticación antes de validar
     localStorage.removeItem("authenticated");
 
     if (password === storedPassword) {
       localStorage.setItem("authenticated", "true"); // Guarda autenticación si es correcta
-      window.location.href = "mango"; // Redirige a la página protegida
+      navigate("/mango"); // Redirige a la página protegida con react-router
     } else {
       setError("Incorrect password. Try again.");
     }

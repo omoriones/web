@@ -7,10 +7,14 @@ import { Experience } from "./components/block/experience"
 import { Footer } from "./components/footer"
 import { Tag } from "./components/tag"
 
+import ScrollToTop from "./hooks/ScrollToTop"
 
-function AppAbout() {
+
+function About() {
   return (
     <>
+		<ScrollToTop />
+
       <Header level={"project"} />
 
       <HeroAbout />
@@ -182,4 +186,4 @@ function AppAbout() {
   )
 }
 
-export default AppAbout
+export default About

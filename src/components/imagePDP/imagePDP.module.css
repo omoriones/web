@@ -1,3 +1,14 @@
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
 .imagePDPContainer {
 	display: flex;
 	flex-direction: column;
@@ -5,7 +16,10 @@
 	width: 100%;
 	max-width: var(--size-max-width);
 	padding: var(--size-padding-lateral);
-	gap: var(--space-s)
+	gap: var(--space-s);
+	opacity: 0;
+
+	animation: fadeIn 0.5s ease-in forwards;
 }
 
 .imagePDPImage {

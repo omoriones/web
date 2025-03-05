@@ -1,11 +1,13 @@
 import { Header } from "./components/header"
 import { Form } from "./components/form";
-import { Divider } from "./components/divider";
+import ScrollToTop from "./hooks/ScrollToTop";
 
 
-function AppPrivate() {
+function Private() {
   return (
     <>
+		<ScrollToTop />
+		
       <Header level={"project"} />
 
 		<Form />
@@ -15,4 +17,4 @@ function AppPrivate() {
   );
 };
 
-export default AppPrivate
+export default Private
