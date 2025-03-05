@@ -1,32 +1,31 @@
-import { Header } from "./components/header"
-import { ProjectName } from "./components/block/projectName"
-import { ProjectMain } from "./components/block/projectMain"
-import { Comment } from "./components/block/comment"
-import { Title } from "./components/block/title"
-import { Footer } from "./components/footer"
-import { ImagePDP } from "./components/imagePDP"
-import { MoreProjects } from "./components/moreProjects"
-import { Card } from "./components/card"
-import { Prototype } from "./components/block/prototype"
-import { LinkSecondary } from "./components/link/linkSecondary"
-import { Divider } from "./components/divider"
-import { ImageCover } from "./components/imageCover"
+import { Header } from './components/header'
+import { ProjectName } from './components/block/projectName'
+import { ProjectMain } from './components/block/projectMain'
+import { Comment } from './components/block/comment'
+import { Title } from './components/block/title'
+import { Footer } from './components/footer'
+import { ImagePDP } from './components/imagePDP'
+import { MoreProjects } from './components/moreProjects'
+import { Card } from './components/card'
+import { Prototype } from './components/block/prototype'
+import { LinkSecondary } from './components/link/linkSecondary'
+import { Divider } from './components/divider'
+import { ImageCover } from './components/imageCover'
 
-import ScrollToTop from "./hooks/ScrollToTop"
-
+import ScrollToTop from './hooks/ScrollToTop'
 
 function Clubberize() {
   return (
     <>
-		<ScrollToTop />
-		
-      <Header level={"project"} />
+      <ScrollToTop />
 
-		<Divider />
+      <Header level={'project'} />
 
-      <ImageCover 
+      <Divider />
+
+      <ImageCover
         src="src/assets/images/clubberize/cover-clubberize"
-		  alt="Clubberize project"
+        alt="Clubberize project"
       />
 
       <ProjectName
@@ -47,18 +46,37 @@ function Clubberize() {
 			This data enables you to evaluate the performance of your music event, learn from it, and improve future events to provide an even better 
 			experience for your audience."
         prototype01={
-          <Prototype 
-            title="Prototype on Figma" 
-            name01={<LinkSecondary label="Dashboard" href="https://www.figma.com/proto/mCziUwppf0mkTwximLxMWQ/Clubberize?page-id=125%3A39830&node-id=133-39270&p=f&viewport=-58%2C202%2C0.05&t=9IkDOwzc0UB5Dcj9-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=133%3A39270" iconSrc="src/assets/icons/out.svg" target="_blank"/>} 
-            name02={<LinkSecondary label="Website" href="https://www.figma.com/proto/mCziUwppf0mkTwximLxMWQ/Clubberize?page-id=133%3A39269&node-id=274-78137&p=f&viewport=-819%2C25%2C0.1&t=QmoJuOPX6OzcMsE0-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=274%3A78137" iconSrc="src/assets/icons/out.svg" target="_blank"/>} 
-            name03={<LinkSecondary label="App" href="https://www.figma.com/proto/mCziUwppf0mkTwximLxMWQ/Clubberize?page-id=4%3A32887&node-id=4-32894&p=f&viewport=233%2C150%2C0.07&t=I8Y9cONB1QqQGa5o-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=4%3A32888" iconSrc="src/assets/icons/out.svg" target="_blank"/>} 
-          />}
+          <Prototype
+            title="Prototype on Figma"
+            name01={
+              <LinkSecondary
+                label="Dashboard"
+                href="https://www.figma.com/proto/mCziUwppf0mkTwximLxMWQ/Clubberize?page-id=125%3A39830&node-id=133-39270&p=f&viewport=-58%2C202%2C0.05&t=9IkDOwzc0UB5Dcj9-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=133%3A39270"
+                iconSrc="src/assets/icons/out.svg"
+                target="_blank"
+              />
+            }
+            name02={
+              <LinkSecondary
+                label="Website"
+                href="https://www.figma.com/proto/mCziUwppf0mkTwximLxMWQ/Clubberize?page-id=133%3A39269&node-id=274-78137&p=f&viewport=-819%2C25%2C0.1&t=QmoJuOPX6OzcMsE0-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=274%3A78137"
+                iconSrc="src/assets/icons/out.svg"
+                target="_blank"
+              />
+            }
+            name03={
+              <LinkSecondary
+                label="App"
+                href="https://www.figma.com/proto/mCziUwppf0mkTwximLxMWQ/Clubberize?page-id=4%3A32887&node-id=4-32894&p=f&viewport=233%2C150%2C0.07&t=I8Y9cONB1QqQGa5o-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=4%3A32888"
+                iconSrc="src/assets/icons/out.svg"
+                target="_blank"
+              />
+            }
+          />
+        }
       />
 
-      <Title
-        number="01"
-        title="Understanding the problem"
-      />
+      <Title number="01" title="Understanding the problem" />
 
       <Comment
         title="Updating their image"
@@ -72,16 +90,12 @@ function Clubberize() {
         tool for promoters and managers to add music events to the app, track performance, and monitor user behavior."
       />
 
-      <ImagePDP 
+      <ImagePDP
         name01="src/assets/images/clubberize/clubberize-01.jpg"
-		  alt="Clubberize project"
+        alt="Clubberize project"
       />
 
-
-      <Title
-        number="02"
-        title="Analyzing the competence"
-      />
+      <Title number="02" title="Analyzing the competence" />
 
       <Comment
         title="Big competitors, a true challenge"
@@ -89,15 +103,12 @@ function Clubberize() {
         events and festival ticketing. We had to make a difference."
       />
 
-      <ImagePDP 
+      <ImagePDP
         name01="src/assets/images/clubberize/clubberize-02.jpg"
-		  alt="Clubberize project"
+        alt="Clubberize project"
       />
 
-      <Title
-        number="03"
-        title="A new fresh brand"
-      />
+      <Title number="03" title="A new fresh brand" />
 
       <Comment
         title="Live music lovers"
@@ -117,17 +128,12 @@ function Clubberize() {
         I love these kinds of challenges, which is why I chose Inter."
       />
 
-
-      <ImagePDP 
+      <ImagePDP
         name01="src/assets/images/clubberize/clubberize-03.jpg"
-		  alt="Clubberize project"
+        alt="Clubberize project"
       />
 
-
-      <Title
-        number="04"
-        title="The app"
-      />
+      <Title number="04" title="The app" />
 
       <Comment
         title="Onboarding"
@@ -147,16 +153,12 @@ function Clubberize() {
         text="Simplicity, ease, and speed were the three must-haves of this process."
       />
 
-
-      <ImagePDP 
+      <ImagePDP
         name01="src/assets/images/clubberize/clubberize-04.jpg"
-		  alt="Clubberize project"
+        alt="Clubberize project"
       />
 
-      <Title
-        number="05"
-        title="The website"
-      />
+      <Title number="05" title="The website" />
 
       <Comment
         title="Home page"
@@ -175,15 +177,12 @@ function Clubberize() {
         and SEO tool to help drive more traffic to the app."
       />
 
-      <ImagePDP 
+      <ImagePDP
         name01="src/assets/images/clubberize/clubberize-05.jpg"
-		  alt="Clubberize project"
+        alt="Clubberize project"
       />
 
-      <Title
-        number="06"
-        title="The dashboard"
-      />
+      <Title number="06" title="The dashboard" />
 
       <Comment
         title="Events, festivals and artists"
@@ -199,17 +198,14 @@ function Clubberize() {
         text="Venues are where artists perform, and as the owner, you can also manage the events at your venue."
       />
 
-
-      <ImagePDP 
+      <ImagePDP
         name01="src/assets/images/clubberize/clubberize-06.jpg"
         name02="src/assets/images/clubberize/clubberize-07.jpg"
         name03="src/assets/images/clubberize/clubberize-08.jpg"
-		  alt="Clubberize project"
+        alt="Clubberize project"
       />
 
-      <Title
-        title="What I've learned from this project"
-      />
+      <Title title="What I've learned from this project" />
 
       <Comment
         title="My first big design system"
@@ -222,19 +218,29 @@ function Clubberize() {
 			<br />
 			This experience taught me how to design large-scale design systems."
       />
-      
-      
+
       <MoreProjects
-        card01={<Card projectName="Stayforlong" projectSubtitle="An online marketplace specialized in long stays." access="public" totalImages={8}/>}
-        card02={<Card projectName="Lowtaux" projectSubtitle="A mortgage website for getting the lowest rate." access="public" totalImages={8}/>}
+        card01={
+          <Card
+            projectName="Stayforlong"
+            projectSubtitle="An online marketplace specialized in long stays."
+            access="public"
+            totalImages={8}
+          />
+        }
+        card02={
+          <Card
+            projectName="Lowtaux"
+            projectSubtitle="A mortgage website for getting the lowest rate."
+            access="public"
+            totalImages={8}
+          />
+        }
       />
 
-      
       <Footer />
-
     </>
-
-  );
-};
+  )
+}
 
 export default Clubberize

@@ -1,31 +1,30 @@
-import { Header } from "./components/header"
-import { ProjectName } from "./components/block/projectName"
-import { ProjectMain } from "./components/block/projectMain"
-import { Comment } from "./components/block/comment"
-import { Title } from "./components/block/title"
-import { Footer } from "./components/footer"
-import { ImagePDP } from "./components/imagePDP"
-import { ProjectCases } from "./components/block/projectCases"
-import { Card } from "./components/card"
-import { MoreProjects } from "./components/moreProjects"
-import { LinkSecondary } from "./components/link/linkSecondary"
-import { Divider } from "./components/divider"
+import { Header } from './components/header'
+import { ProjectName } from './components/block/projectName'
+import { ProjectMain } from './components/block/projectMain'
+import { Comment } from './components/block/comment'
+import { Title } from './components/block/title'
+import { Footer } from './components/footer'
+import { ImagePDP } from './components/imagePDP'
+import { ProjectCases } from './components/block/projectCases'
+import { Card } from './components/card'
+import { MoreProjects } from './components/moreProjects'
+import { LinkSecondary } from './components/link/linkSecondary'
+import { Divider } from './components/divider'
 
-import ScrollToTop from "./hooks/ScrollToTop"
-
+import ScrollToTop from './hooks/ScrollToTop'
 
 function Mango() {
   return (
     <>
-		<ScrollToTop />
+      <ScrollToTop />
 
-      <Header level={"project"} />
+      <Header level={'project'} />
 
-		<Divider />
+      <Divider />
 
       <ImagePDP
         name01="src/assets/images/mango/cover-mango-01.jpg"
-		  alt="Mango project"
+        alt="Mango project"
       />
 
       <ProjectName
@@ -44,10 +43,7 @@ function Mango() {
 			With over 30 years of history, Mango is a leading reference in the global fashion industry."
       />
 
-      <Title
-        number="01"
-        title="Understanding the problem"
-      />
+      <Title number="01" title="Understanding the problem" />
 
       <Comment
         title="Elevating their digital products"
@@ -67,16 +63,12 @@ function Mango() {
         enhance it by implementing tokenization and establishing its nomenclature. To do so, I  had to audit the three design systems Mango had."
       />
 
-      <ImagePDP 
+      <ImagePDP
         name01="src/assets/images/mango/mango-01.jpg"
-		  alt="Mango project"
+        alt="Mango project"
       />
 
-
-      <Title
-        number="02"
-        title="Elevating their digital products"
-      />
+      <Title number="02" title="Elevating their digital products" />
 
       <Comment
         title="Applying the new visual identity"
@@ -96,15 +88,12 @@ function Mango() {
         because we have shared user journeys and components."
       />
 
-      <ImagePDP 
+      <ImagePDP
         name01="src/assets/images/mango/mango-02.jpg"
-		  alt="Mango project"
+        alt="Mango project"
       />
 
-      <Title
-        number="03"
-        title="Micro-iterations for conversion"
-      />
+      <Title number="03" title="Micro-iterations for conversion" />
 
       <Comment
         title="UX research and benchmarking"
@@ -126,17 +115,12 @@ function Mango() {
         project, we prioritised one metric over another, always keeping conversion as the ultimate goal."
       />
 
-
-      <ImagePDP 
+      <ImagePDP
         name01="src/assets/images/mango/mango-03.jpg"
-		  alt="Mango project"
+        alt="Mango project"
       />
 
-
-      <Title
-        number="04"
-        title="Improving its Design System"
-      />
+      <Title number="04" title="Improving its Design System" />
 
       <Comment
         title="A clear and valid nomenclature"
@@ -151,27 +135,29 @@ function Mango() {
         was quite a difficult task as we had different typography for each brand and each device. But we did it!"
       />
 
-
-      <ImagePDP 
+      <ImagePDP
         name01="src/assets/images/mango/mango-04.jpg"
         name02="src/assets/images/mango/mango-05.jpg"
         name03="src/assets/images/mango/mango-06.jpg"
         name04="src/assets/images/mango/mango-07.jpg"
-		  alt="Mango project"
+        alt="Mango project"
       />
-      
+
       <ProjectCases
         title="Case studies"
         text="These are 2 real case studies of this project: how we found out, what we did, what we got and what we did after that. 
         In other words, the entire design process."
-        button={<LinkSecondary label={"2 case studies"} href={""} iconSrc={'src/assets/icons/out.svg'} target="_blank"/>}
+        button={
+          <LinkSecondary
+            label={'2 case studies'}
+            href={''}
+            iconSrc={'src/assets/icons/out.svg'}
+            target="_blank"
+          />
+        }
       />
 
-
-
-      <Title
-        title="What I've learned from this project"
-      />
+      <Title title="What I've learned from this project" />
 
       <Comment
         title="Outline the importance of small details"
@@ -188,18 +174,28 @@ function Mango() {
 			It was definitely an enriching experience in all aspects."
       />
 
-
       <MoreProjects
-        card01={<Card projectName="Stayforlong" projectSubtitle="An online marketplace specialized in long stays." access="public" totalImages={8}/>}
-        card02={<Card projectName="Huru" projectSubtitle="A NFT renting marketplace for gamers by gamers." access="public" totalImages={8}/>}
+        card01={
+          <Card
+            projectName="Stayforlong"
+            projectSubtitle="An online marketplace specialized in long stays."
+            access="public"
+            totalImages={8}
+          />
+        }
+        card02={
+          <Card
+            projectName="Huru"
+            projectSubtitle="A NFT renting marketplace for gamers by gamers."
+            access="public"
+            totalImages={8}
+          />
+        }
       />
-      
-      
+
       <Footer />
-
     </>
-
-  );
-};
+  )
+}
 
 export default Mango

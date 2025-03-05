@@ -1,32 +1,31 @@
-import { Header } from "./components/header"
-import { ProjectName } from "./components/block/projectName"
-import { ProjectMain } from "./components/block/projectMain"
-import { Comment } from "./components/block/comment"
-import { Title } from "./components/block/title"
-import { Footer } from "./components/footer"
-import { ImagePDP } from "./components/imagePDP"
-import { MoreProjects } from "./components/moreProjects"
-import { Card } from "./components/card"
-import { Prototype } from "./components/block/prototype"
-import { LinkSecondary } from "./components/link/linkSecondary"
-import { Divider } from "./components/divider"
-import { ImageCover } from "./components/imageCover"
+import { Header } from './components/header'
+import { ProjectName } from './components/block/projectName'
+import { ProjectMain } from './components/block/projectMain'
+import { Comment } from './components/block/comment'
+import { Title } from './components/block/title'
+import { Footer } from './components/footer'
+import { ImagePDP } from './components/imagePDP'
+import { MoreProjects } from './components/moreProjects'
+import { Card } from './components/card'
+import { Prototype } from './components/block/prototype'
+import { LinkSecondary } from './components/link/linkSecondary'
+import { Divider } from './components/divider'
+import { ImageCover } from './components/imageCover'
 
-import ScrollToTop from "./hooks/ScrollToTop"
-
+import ScrollToTop from './hooks/ScrollToTop'
 
 function Lowtaux() {
   return (
     <>
-		<ScrollToTop />
-		
-      <Header level={"project"} />
+      <ScrollToTop />
 
-		<Divider />
+      <Header level={'project'} />
 
-      <ImageCover 
+      <Divider />
+
+      <ImageCover
         src="src/assets/images/lowtaux/cover-lowtaux"
-		  alt="Lowtaux project"
+        alt="Lowtaux project"
       />
 
       <ProjectName
@@ -43,18 +42,37 @@ function Lowtaux() {
 			Now, the company aims to improve its online presence to expand its influence and grow in the digital market. They are seeking a new mobile-first 
 			design, as they have found that 40% of their online visits come from mobile devices."
         prototype01={
-          <Prototype 
-            title="Prototype on Figma" 
-            name01={<LinkSecondary label="Mobile" href="https://www.figma.com/proto/h1ITxIxrUHSXCPzScdkSxh/Lowtaux?page-id=5%3A6250&node-id=32-3966&p=f&viewport=55%2C229%2C0.11&t=2kjRc4Fu2XYN1mzm-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=32%3A3966" iconSrc="src/assets/icons/out.svg" target="_blank"/>} 
-            name02={<LinkSecondary label="Tablet" href="https://www.figma.com/proto/h1ITxIxrUHSXCPzScdkSxh/Lowtaux?page-id=5%3A6251&node-id=32-4099&p=f&viewport=-21%2C391%2C0.07&t=dbFvebFLliI0sp5c-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=32%3A4099" iconSrc="src/assets/icons/out.svg" target="_blank"/>} 
-            name03={<LinkSecondary label="Desktop" href="https://www.figma.com/proto/h1ITxIxrUHSXCPzScdkSxh/Lowtaux?page-id=5%3A6252&node-id=32-4328&p=f&viewport=56%2C423%2C0.05&t=FyA3slNLxb5XeOqo-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=32%3A4328" iconSrc="src/assets/icons/out.svg" target="_blank"/>} 
-          />}
+          <Prototype
+            title="Prototype on Figma"
+            name01={
+              <LinkSecondary
+                label="Mobile"
+                href="https://www.figma.com/proto/h1ITxIxrUHSXCPzScdkSxh/Lowtaux?page-id=5%3A6250&node-id=32-3966&p=f&viewport=55%2C229%2C0.11&t=2kjRc4Fu2XYN1mzm-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=32%3A3966"
+                iconSrc="src/assets/icons/out.svg"
+                target="_blank"
+              />
+            }
+            name02={
+              <LinkSecondary
+                label="Tablet"
+                href="https://www.figma.com/proto/h1ITxIxrUHSXCPzScdkSxh/Lowtaux?page-id=5%3A6251&node-id=32-4099&p=f&viewport=-21%2C391%2C0.07&t=dbFvebFLliI0sp5c-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=32%3A4099"
+                iconSrc="src/assets/icons/out.svg"
+                target="_blank"
+              />
+            }
+            name03={
+              <LinkSecondary
+                label="Desktop"
+                href="https://www.figma.com/proto/h1ITxIxrUHSXCPzScdkSxh/Lowtaux?page-id=5%3A6252&node-id=32-4328&p=f&viewport=56%2C423%2C0.05&t=FyA3slNLxb5XeOqo-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=32%3A4328"
+                iconSrc="src/assets/icons/out.svg"
+                target="_blank"
+              />
+            }
+          />
+        }
       />
 
-      <Title
-        number="01"
-        title="Understanding the problem"
-      />
+      <Title number="01" title="Understanding the problem" />
 
       <Comment
         title="Updating their digital image"
@@ -68,16 +86,12 @@ function Lowtaux() {
         smartphones or tablets."
       />
 
-      <ImagePDP 
+      <ImagePDP
         name01="src/assets/images/lowtaux/lowtaux-01.jpg"
-		  alt="Lowtaux project"
+        alt="Lowtaux project"
       />
 
-
-      <Title
-        number="02"
-        title="Learning about the market"
-      />
+      <Title number="02" title="Learning about the market" />
 
       <Comment
         title="Knowing the competence"
@@ -85,15 +99,12 @@ function Lowtaux() {
         profitable than the traditional office-based model. They didn't want to be left behind."
       />
 
-      <ImagePDP 
+      <ImagePDP
         name01="src/assets/images/lowtaux/lowtaux-02.jpg"
-		  alt="Lowtaux project"
+        alt="Lowtaux project"
       />
 
-      <Title
-        number="03"
-        title="Rebranding the brand"
-      />
+      <Title number="03" title="Rebranding the brand" />
 
       <Comment
         title="New essence"
@@ -111,17 +122,12 @@ function Lowtaux() {
         text="Round and bold, this typography called Brown conveys strength, modernity, and a fresh new vibe to the brand."
       />
 
-
-      <ImagePDP 
+      <ImagePDP
         name01="src/assets/images/lowtaux/lowtaux-03.jpg"
-		  alt="Lowtaux project"
+        alt="Lowtaux project"
       />
 
-
-      <Title
-        number="04"
-        title="Improving the UX"
-      />
+      <Title number="04" title="Improving the UX" />
 
       <Comment
         title="Reorganizing like Marie Kondo"
@@ -136,8 +142,7 @@ function Lowtaux() {
         product's success. So, I designed several emails with a humorous tone to encourage user engagement."
       />
 
-
-      <ImagePDP 
+      <ImagePDP
         name01="src/assets/images/lowtaux/lowtaux-04.jpg"
         name02="src/assets/images/lowtaux/lowtaux-05.jpg"
         name03="src/assets/images/lowtaux/lowtaux-06.jpg"
@@ -145,14 +150,10 @@ function Lowtaux() {
         name05="src/assets/images/lowtaux/lowtaux-08.jpg"
         name06="src/assets/images/lowtaux/lowtaux-09.jpg"
         name07="src/assets/images/lowtaux/lowtaux-10.jpg"
-		  alt="Lowtaux project"
+        alt="Lowtaux project"
       />
 
-
-
-      <Title
-        title="What I've learned from this project"
-      />
+      <Title title="What I've learned from this project" />
 
       <Comment
         title="Simplicity is key"
@@ -165,19 +166,29 @@ function Lowtaux() {
 			<br />
 			And I love to learn."
       />
-            
-            
+
       <MoreProjects
-        card01={<Card projectName="Hypo" projectSubtitle="An AI chatbot for simulating your mortgage." access="public" totalImages={8}/>}
-        card02={<Card projectName="Clubberize" projectSubtitle="A music event recommender app for live music lovers." access="public" totalImages={8}/>}
+        card01={
+          <Card
+            projectName="Hypo"
+            projectSubtitle="An AI chatbot for simulating your mortgage."
+            access="public"
+            totalImages={8}
+          />
+        }
+        card02={
+          <Card
+            projectName="Clubberize"
+            projectSubtitle="A music event recommender app for live music lovers."
+            access="public"
+            totalImages={8}
+          />
+        }
       />
 
-      
       <Footer />
-
     </>
-
-  );
-};
+  )
+}
 
 export default Lowtaux

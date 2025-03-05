@@ -1,39 +1,39 @@
 .linkSecondary {
-	display: inline-flex;
-	padding: 12px 24px;
-	justify-content: center;
-	align-items: center;
-	gap: 8px;
-	border-radius: 48px;
-	outline: 2px solid var(--color-surface-default);
-	outline-offset: -2px;
+  display: inline-flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 48px;
+  outline: 2px solid var(--color-surface-default);
+  outline-offset: -2px;
 }
 
 .linkSecondary p {
-	width: max-content;
+  width: max-content;
 }
 
 .linkSecondary:hover {
-	background: var(--color-surface-default);
+  background: var(--color-surface-default);
 }
 
-[data-theme="dark"] .linkSecondary:hover .linkSecondaryIcon {
-	filter: invert(0);
+[data-theme='dark'] .linkSecondary:hover .linkSecondaryIcon {
+  filter: invert(0);
 }
 
 .linkSecondary:hover p {
-	color: var(--color-content-inverse);
+  color: var(--color-content-inverse);
 }
 
 .linkSecondary:hover .linkSecondaryIcon {
-	filter: invert(1)
+  filter: invert(1);
 }
 
 .linkSecondaryIcon {
-	height: 24px;
-	width: 24px;
+  height: 24px;
+  width: 24px;
 }
 
-[data-theme="dark"] .linkSecondaryIcon {
-	filter: invert(1);
+[data-theme='dark'] .linkSecondaryIcon {
+  filter: invert(1);
 }

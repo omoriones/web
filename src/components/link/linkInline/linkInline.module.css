@@ -1,14 +1,14 @@
 .linkInline {
-	padding: 0;
-	border-radius: 0;
-	text-decoration: underline;
-	text-underline-offset: 5px;
-	text-decoration-thickness: 2px;
-	font-size: inherit;
-	transition: text-underline-offset 0.1s;
+  padding: 0;
+  border-radius: 0;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+  font-size: inherit;
+  transition: text-underline-offset 0.1s;
 }
 
 .linkInline:hover {
-	text-underline-offset: 7px;
-	transition: text-underline-offset 0.1s;
+  text-underline-offset: 7px;
+  transition: text-underline-offset 0.1s;
 }

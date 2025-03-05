@@ -1,7 +1,3 @@
-import classes from './divider.module.css';
+import classes from './divider.module.css'
 
-export const Divider = () => (
-
-	<div className={classes.divider}></div>
-
-)
+export const Divider = () => <div className={classes.divider}></div>

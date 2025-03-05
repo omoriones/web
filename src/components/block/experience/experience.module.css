@@ -1,54 +1,47 @@
 /* S (600px and down) */
 @media only screen and (max-width: 600px) {
-
-	.experience {
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		gap: var(--space-xs);
-		width: 100%;
-		max-width: var(--sizing-block-max);
-		padding: var(--size-padding-lateral);
-	}
-
+  .experience {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-xs);
+    width: 100%;
+    max-width: var(--sizing-block-max);
+    padding: var(--size-padding-lateral);
+  }
 }
 
 /* M (600px - 1024px) */
 @media only screen and (min-width: 600px) {
-
-	.experience {
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		gap: var(--space-xs);
-		width: 100%;
-		max-width: var(--sizing-block-max);
-		padding: var(--size-padding-lateral);
-	}
-	
+  .experience {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-xs);
+    width: 100%;
+    max-width: var(--sizing-block-max);
+    padding: var(--size-padding-lateral);
+  }
 }
 
- /* L (1025px and up) */
- @media only screen and (min-width: 1025px) {
-
-	.experience {
-		display: flex;
-		flex-direction: row;
-		align-items: flex-start;
-		gap: var(--space-xs);
-		width: 100%;
-		max-width: var(--sizing-block-max);
-		padding: var(--size-padding-lateral);
-	}
-
+/* L (1025px and up) */
+@media only screen and (min-width: 1025px) {
+  .experience {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: var(--space-xs);
+    width: 100%;
+    max-width: var(--sizing-block-max);
+    padding: var(--size-padding-lateral);
+  }
 }
-
 
 .experienceLeftContainer {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	gap: var(--size-4);
-	width: 300px;
-	flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--size-4);
+  width: 300px;
+  flex-shrink: 0;
 }
