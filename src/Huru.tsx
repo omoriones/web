@@ -1,32 +1,28 @@
-import { Header } from "./components/header"
-import { ProjectName } from "./components/block/projectName"
-import { ProjectMain } from "./components/block/projectMain"
-import { Comment } from "./components/block/comment"
-import { Title } from "./components/block/title"
-import { Footer } from "./components/footer"
-import { ImagePDP } from "./components/imagePDP"
-import { MoreProjects } from "./components/moreProjects"
-import { Card } from "./components/card"
-import { Prototype } from "./components/block/prototype"
-import { LinkSecondary } from "./components/link/linkSecondary"
-import { Divider } from "./components/divider"
-import { ImageCover } from "./components/imageCover"
-import ScrollToTop from "./hooks/ScrollToTop"
-
+import { Header } from './components/header'
+import { ProjectName } from './components/block/projectName'
+import { ProjectMain } from './components/block/projectMain'
+import { Comment } from './components/block/comment'
+import { Title } from './components/block/title'
+import { Footer } from './components/footer'
+import { ImagePDP } from './components/imagePDP'
+import { MoreProjects } from './components/moreProjects'
+import { Card } from './components/card'
+import { Prototype } from './components/block/prototype'
+import { LinkSecondary } from './components/link/linkSecondary'
+import { Divider } from './components/divider'
+import { ImageCover } from './components/imageCover'
+import ScrollToTop from './hooks/ScrollToTop'
 
 function Huru() {
   return (
     <>
-		<ScrollToTop />
-		
-      <Header level={"project"} />
+      <ScrollToTop />
 
-		<Divider />
+      <Header level={'project'} />
 
-      <ImageCover
-        src="src/assets/images/huru/cover-huru"
-		  alt="Huru project"
-      />
+      <Divider />
+
+      <ImageCover src="src/assets/images/huru/cover-huru" alt="Huru project" />
 
       <ProjectName
         company="Huru"
@@ -43,25 +39,66 @@ function Huru() {
         while retaining NFT ownership. This ensures protection for both lenders and renters. Additionally, Huru allows you to play using 
         your own account, eliminating the need to create fake accounts for revenue sharing with strangers."
         prototype01={
-          <Prototype 
-            title="Prototype on Figma (Marketplace)" 
-            name01={<LinkSecondary label="Mobile" href="https://www.figma.com/proto/CooGBmKzCWFrogZIik9vMT/Huru?page-id=1490%3A28406&node-id=1490-28480&p=f&viewport=1959%2C351%2C0.11&t=mCuDDRfZfK6G85aE-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1490%3A28480" iconSrc="src/assets/icons/out.svg" target="_blank"/>} 
-            name02={<LinkSecondary label="Tablet" href="https://www.figma.com/proto/CooGBmKzCWFrogZIik9vMT/Huru?page-id=1501%3A46372&node-id=1501-46435&p=f&viewport=1280%2C513%2C0.07&t=E6XevXoS7gXaZJlh-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1501%3A46435" iconSrc="src/assets/icons/out.svg" target="_blank"/>} 
-            name03={<LinkSecondary label="Desktop" href="https://www.figma.com/proto/CooGBmKzCWFrogZIik9vMT/Huru?page-id=1507%3A22357&node-id=1507-22398&p=f&viewport=832%2C510%2C0.04&t=TPhcazU8MtnWXoD3-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1507%3A22398" iconSrc="src/assets/icons/out.svg" target="_blank"/>} 
-          />}
+          <Prototype
+            title="Prototype on Figma (Marketplace)"
+            name01={
+              <LinkSecondary
+                label="Mobile"
+                href="https://www.figma.com/proto/CooGBmKzCWFrogZIik9vMT/Huru?page-id=1490%3A28406&node-id=1490-28480&p=f&viewport=1959%2C351%2C0.11&t=mCuDDRfZfK6G85aE-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1490%3A28480"
+                iconSrc="src/assets/icons/out.svg"
+                target="_blank"
+              />
+            }
+            name02={
+              <LinkSecondary
+                label="Tablet"
+                href="https://www.figma.com/proto/CooGBmKzCWFrogZIik9vMT/Huru?page-id=1501%3A46372&node-id=1501-46435&p=f&viewport=1280%2C513%2C0.07&t=E6XevXoS7gXaZJlh-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1501%3A46435"
+                iconSrc="src/assets/icons/out.svg"
+                target="_blank"
+              />
+            }
+            name03={
+              <LinkSecondary
+                label="Desktop"
+                href="https://www.figma.com/proto/CooGBmKzCWFrogZIik9vMT/Huru?page-id=1507%3A22357&node-id=1507-22398&p=f&viewport=832%2C510%2C0.04&t=TPhcazU8MtnWXoD3-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1507%3A22398"
+                iconSrc="src/assets/icons/out.svg"
+                target="_blank"
+              />
+            }
+          />
+        }
         prototype02={
-          <Prototype 
-            title="Prototype on Figma (Landing page)" 
-            name01={<LinkSecondary label="Mobile" href="https://www.figma.com/proto/CooGBmKzCWFrogZIik9vMT/Huru?page-id=1520%3A19561&node-id=1520-22471&p=f&viewport=636%2C467%2C0.07&t=pUATEosmYAw72Lnd-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1520%3A22471" iconSrc="src/assets/icons/out.svg" target="_blank"/>} 
-            name02={<LinkSecondary label="Tablet" href="https://www.figma.com/proto/CooGBmKzCWFrogZIik9vMT/Huru?page-id=1520%3A22441&node-id=1520-23586&p=f&viewport=610%2C464%2C0.08&t=SF8derLJxilvWlrF-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1520%3A23586" iconSrc="src/assets/icons/out.svg" target="_blank"/>} 
-            name03={<LinkSecondary label="Desktop" href="https://www.figma.com/proto/CooGBmKzCWFrogZIik9vMT/Huru?page-id=1520%3A22442&node-id=1520-24464&p=f&viewport=543%2C464%2C0.1&t=qu5UjVgFljEq7kON-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1520%3A24464" iconSrc="src/assets/icons/out.svg" target="_blank"/>} 
-          />}
+          <Prototype
+            title="Prototype on Figma (Landing page)"
+            name01={
+              <LinkSecondary
+                label="Mobile"
+                href="https://www.figma.com/proto/CooGBmKzCWFrogZIik9vMT/Huru?page-id=1520%3A19561&node-id=1520-22471&p=f&viewport=636%2C467%2C0.07&t=pUATEosmYAw72Lnd-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1520%3A22471"
+                iconSrc="src/assets/icons/out.svg"
+                target="_blank"
+              />
+            }
+            name02={
+              <LinkSecondary
+                label="Tablet"
+                href="https://www.figma.com/proto/CooGBmKzCWFrogZIik9vMT/Huru?page-id=1520%3A22441&node-id=1520-23586&p=f&viewport=610%2C464%2C0.08&t=SF8derLJxilvWlrF-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1520%3A23586"
+                iconSrc="src/assets/icons/out.svg"
+                target="_blank"
+              />
+            }
+            name03={
+              <LinkSecondary
+                label="Desktop"
+                href="https://www.figma.com/proto/CooGBmKzCWFrogZIik9vMT/Huru?page-id=1520%3A22442&node-id=1520-24464&p=f&viewport=543%2C464%2C0.1&t=qu5UjVgFljEq7kON-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1520%3A24464"
+                iconSrc="src/assets/icons/out.svg"
+                target="_blank"
+              />
+            }
+          />
+        }
       />
 
-      <Title
-        number="01"
-        title="Addressing the challenge"
-      />
+      <Title number="01" title="Addressing the challenge" />
 
       <Comment
         title="An unknown path"
@@ -84,11 +121,7 @@ function Huru() {
         page to provide more information about their projects."
       />
 
-
-      <Title
-        number="02"
-        title="Evaluating competitors"
-      />
+      <Title number="02" title="Evaluating competitors" />
 
       <Comment
         title="Pros and cons"
@@ -97,15 +130,12 @@ function Huru() {
         I was able to draw several key conclusions, which are detailed below. This made the direction of the project crystal clear."
       />
 
-      <ImagePDP 
+      <ImagePDP
         name01="src/assets/images/huru/huru-01.jpg"
-		  alt="Huru project"
+        alt="Huru project"
       />
 
-      <Title
-        number="03"
-        title="Discovery"
-      />
+      <Title number="03" title="Discovery" />
 
       <Comment
         title="Trading, mapping and hiding"
@@ -121,17 +151,12 @@ function Huru() {
         center of the screen."
       />
 
-
-      <ImagePDP 
+      <ImagePDP
         name01="src/assets/images/huru/huru-02.jpg"
-		  alt="Huru project"
+        alt="Huru project"
       />
 
-
-      <Title
-        number="04"
-        title="Exploration"
-      />
+      <Title number="04" title="Exploration" />
 
       <Comment
         title="3D language and dark mode"
@@ -148,16 +173,12 @@ function Huru() {
         is crucial, addressing corner cases is equally important."
       />
 
-
-      <ImagePDP 
+      <ImagePDP
         name01="src/assets/images/huru/huru-03.jpg"
-		  alt="Huru project"
+        alt="Huru project"
       />
 
-      <Title
-        number="05"
-        title="Delivery"
-      />
+      <Title number="05" title="Delivery" />
 
       <Comment
         title="Firs time freelancing"
@@ -166,18 +187,15 @@ function Huru() {
         file-delivery agreements."
       />
 
-      <ImagePDP 
+      <ImagePDP
         name01="src/assets/images/huru/huru-04.jpg"
         name02="src/assets/images/huru/huru-05.jpg"
         name03="src/assets/images/huru/huru-06.jpg"
         name04="src/assets/images/huru/huru-07.jpg"
-		  alt="Huru project"
+        alt="Huru project"
       />
 
-      <Title
-        number="07"
-        title="What I've learned from this project"
-      />
+      <Title number="07" title="What I've learned from this project" />
 
       <Comment
         title="Leaving the comfort zone"
@@ -190,19 +208,29 @@ function Huru() {
 			Ultimately, I feel I've become a better designer by pushing my boundaries. I'm always eager to explore the unknown and can't wait 
 			for the next project!"
       />
-            
-            
+
       <MoreProjects
-        card01={<Card projectName="Mango" projectSubtitle="A fashion brand known for its modern clothing." access="private" totalImages={1}/>}
-        card02={<Card projectName="Stayforlong" projectSubtitle="An online marketplace specialized in long stays." access="public" totalImages={8}/>}
+        card01={
+          <Card
+            projectName="Mango"
+            projectSubtitle="A fashion brand known for its modern clothing."
+            access="private"
+            totalImages={1}
+          />
+        }
+        card02={
+          <Card
+            projectName="Stayforlong"
+            projectSubtitle="An online marketplace specialized in long stays."
+            access="public"
+            totalImages={8}
+          />
+        }
       />
 
-      
       <Footer />
-
     </>
-
-  );
-};
+  )
+}
 
 export default Huru

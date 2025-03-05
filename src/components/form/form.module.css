@@ -1,82 +1,82 @@
 @keyframes fadeIn {
-	from {
-		opacity: 0;
-		transform: translateY(10px);
-	}
-	to {
-		opacity: 1;
-		transform: translateY(0);
-	}
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 form {
-	height: 100vh;
-	display: flex;
-	align-items: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .form {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 48px;
-	width: 100%;
-	max-width: var(--sizing-block-max);
-	padding: 80px var(--size-padding-lateral);
-	opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  width: 100%;
+  max-width: var(--sizing-block-max);
+  padding: 80px var(--size-padding-lateral);
+  opacity: 0;
 
-	animation: fadeIn 0.5s ease-in forwards;
+  animation: fadeIn 0.5s ease-in forwards;
 }
 
 .form h3 {
-	text-align: center;
+  text-align: center;
 }
 
 .formContainer {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 450px;
 }
 
-input[type=password] {
-	display: flex;
-	height: 58px;
-	padding: 0px 24px;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
-	gap: -8px;
-	align-self: stretch;
-	border-radius: 48px;
-	border: 2px solid var(--color-surface-default);
-	background: var(--color-surface-input-default);
+input[type='password'] {
+  display: flex;
+  height: 58px;
+  padding: 0px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: -8px;
+  align-self: stretch;
+  border-radius: 48px;
+  border: 2px solid var(--color-surface-default);
+  background: var(--color-surface-input-default);
 }
 
 input::placeholder {
-	color: var(--color-content-default);
+  color: var(--color-content-default);
 }
 
 input:focus {
-	outline: none;
+  outline: none;
 }
 
-input[type=submit] {
-	display: flex;
-	height: 58px;
-	padding: 0px 24px;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
-	gap: -8px;
-	align-self: stretch;
-	border-radius: 48px;
-	border: 1px solid var(--color-surface-default);
-	background: var(--color-surface-default);
-	color: var(--color-content-inverse);
+input[type='submit'] {
+  display: flex;
+  height: 58px;
+  padding: 0px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: -8px;
+  align-self: stretch;
+  border-radius: 48px;
+  border: 1px solid var(--color-surface-default);
+  background: var(--color-surface-default);
+  color: var(--color-content-inverse);
 }
 
 .error {
-	text-align: center;
-	margin-top: var(--size-8);
+  text-align: center;
+  margin-top: var(--size-8);
 }

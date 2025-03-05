@@ -1,69 +1,62 @@
 @keyframes fadeIn {
-	from {
-		opacity: 0;
-		transform: translateY(10px);
-	}
-	to {
-		opacity: 1;
-		transform: translateY(0);
-	}
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* S (600px and down) */
 @media only screen and (max-width: 600px) {
+  .comment {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: var(--sizing-block-max);
+    padding: var(--size-padding-lateral);
+    align-items: flex-start;
+    gap: var(--space-xs);
+    opacity: 0;
 
-	.comment {
-		display: flex;
-		flex-direction: column;
-		width: 100%;
-		max-width: var(--sizing-block-max);
-		padding: var(--size-padding-lateral);
-		align-items: flex-start;
-		gap: var(--space-xs);
-		opacity: 0;
-	
-		animation: fadeIn 0.5s ease-in forwards;
-	}
-
+    animation: fadeIn 0.5s ease-in forwards;
+  }
 }
 
 /* M (600px - 1024px) */
 @media only screen and (min-width: 600px) {
+  .comment {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: var(--sizing-block-max);
+    padding: var(--size-padding-lateral);
+    align-items: flex-start;
+    gap: var(--space-xs);
+    opacity: 0;
 
-	.comment {
-		display: flex;
-		flex-direction: column;
-		width: 100%;
-		max-width: var(--sizing-block-max);
-		padding: var(--size-padding-lateral);
-		align-items: flex-start;
-		gap: var(--space-xs);
-		opacity: 0;
-	
-		animation: fadeIn 0.5s ease-in forwards;
-	}
-	
+    animation: fadeIn 0.5s ease-in forwards;
+  }
 }
 
- /* L (1025px and up) */
- @media only screen and (min-width: 1025px) {
+/* L (1025px and up) */
+@media only screen and (min-width: 1025px) {
+  .comment {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: var(--sizing-block-max);
+    padding: var(--size-padding-lateral);
+    align-items: flex-start;
+    gap: var(--space-xs);
+    opacity: 0;
 
-	.comment {
-		display: flex;
-		flex-direction: row;
-		width: 100%;
-		max-width: var(--sizing-block-max);
-		padding: var(--size-padding-lateral);
-		align-items: flex-start;
-		gap: var(--space-xs);
-		opacity: 0;
-	
-		animation: fadeIn 0.5s ease-in forwards;
-	}
-
+    animation: fadeIn 0.5s ease-in forwards;
+  }
 }
-
 
 .commentTitle {
-	min-width: 300px;
+  min-width: 300px;
 }

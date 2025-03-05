@@ -1,34 +1,32 @@
-import { Header } from "./components/header"
-import { ProjectName } from "./components/block/projectName"
-import { ProjectMain } from "./components/block/projectMain"
-import { Comment } from "./components/block/comment"
-import { Title } from "./components/block/title"
-import { Footer } from "./components/footer"
-import { ProjectCases } from "./components/block/projectCases"
-import { ImagePDP } from "./components/imagePDP"
-import { MoreProjects } from "./components/moreProjects"
-import { Card } from "./components/card"
-import { Prototype } from "./components/block/prototype"
-import { LinkSecondary } from "./components/link/linkSecondary"
-import { Divider } from "./components/divider"
-import { ImageCover } from "./components/imageCover"
+import { Header } from './components/header'
+import { ProjectName } from './components/block/projectName'
+import { ProjectMain } from './components/block/projectMain'
+import { Comment } from './components/block/comment'
+import { Title } from './components/block/title'
+import { Footer } from './components/footer'
+import { ProjectCases } from './components/block/projectCases'
+import { ImagePDP } from './components/imagePDP'
+import { MoreProjects } from './components/moreProjects'
+import { Card } from './components/card'
+import { Prototype } from './components/block/prototype'
+import { LinkSecondary } from './components/link/linkSecondary'
+import { Divider } from './components/divider'
+import { ImageCover } from './components/imageCover'
 
-import ScrollToTop from "./hooks/ScrollToTop"
-
+import ScrollToTop from './hooks/ScrollToTop'
 
 function Stayforlong() {
   return (
     <>
+      <ScrollToTop />
 
-		<ScrollToTop />
+      <Header level={'project'} />
 
-      <Header level={"project"} />
+      <Divider />
 
-		<Divider />
-
-      <ImageCover 
+      <ImageCover
         src="src/assets/images/stayforlong/cover-stayforlong"
-		  alt="Stayforlong project"
+        alt="Stayforlong project"
       />
 
       <ProjectName
@@ -46,20 +44,37 @@ function Stayforlong() {
         they enjoy longer vacations, while hoteliers can also boost their occupancy rates. It's a win-win situation: both guests and hotels 
         receive special treatment and rewards."
         prototype01={
-          <Prototype 
-            title="Prototype on Figma" 
-            name01={<LinkSecondary label="Mobile" href="https://www.figma.com/proto/wQw4y4R7eJPxPiHhMk3G8M/Stayforlong?page-id=845%3A56227&node-id=845-56264&p=f&viewport=2823%2C399%2C0.1&t=Fdcw50m1JsD7DqRE-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=845%3A56264" iconSrc="src/assets/icons/out.svg" target="_blank"/>} 
-            name02={<LinkSecondary label="Tablet" href="https://www.figma.com/proto/wQw4y4R7eJPxPiHhMk3G8M/Stayforlong?page-id=856%3A96531&node-id=856-96556&p=f&viewport=702%2C312%2C0.04&t=DMMIkqkCxpV2po2p-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=856%3A96556" iconSrc="src/assets/icons/out.svg" target="_blank"/>} 
-            name03={<LinkSecondary label="Desktop" href="https://www.figma.com/proto/wQw4y4R7eJPxPiHhMk3G8M/Stayforlong?page-id=856%3A116683&node-id=856-116684&p=f&viewport=366%2C317%2C0.04&t=RmPFS2kEjob4E5Oo-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=856%3A116684" iconSrc="src/assets/icons/out.svg" target="_blank"/>} 
-          />}
+          <Prototype
+            title="Prototype on Figma"
+            name01={
+              <LinkSecondary
+                label="Mobile"
+                href="https://www.figma.com/proto/wQw4y4R7eJPxPiHhMk3G8M/Stayforlong?page-id=845%3A56227&node-id=845-56264&p=f&viewport=2823%2C399%2C0.1&t=Fdcw50m1JsD7DqRE-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=845%3A56264"
+                iconSrc="src/assets/icons/out.svg"
+                target="_blank"
+              />
+            }
+            name02={
+              <LinkSecondary
+                label="Tablet"
+                href="https://www.figma.com/proto/wQw4y4R7eJPxPiHhMk3G8M/Stayforlong?page-id=856%3A96531&node-id=856-96556&p=f&viewport=702%2C312%2C0.04&t=DMMIkqkCxpV2po2p-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=856%3A96556"
+                iconSrc="src/assets/icons/out.svg"
+                target="_blank"
+              />
+            }
+            name03={
+              <LinkSecondary
+                label="Desktop"
+                href="https://www.figma.com/proto/wQw4y4R7eJPxPiHhMk3G8M/Stayforlong?page-id=856%3A116683&node-id=856-116684&p=f&viewport=366%2C317%2C0.04&t=RmPFS2kEjob4E5Oo-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=856%3A116684"
+                iconSrc="src/assets/icons/out.svg"
+                target="_blank"
+              />
+            }
+          />
+        }
       />
 
-      
-
-      <Title
-        number="01"
-        title="Understanding the problem"
-      />
+      <Title number="01" title="Understanding the problem" />
 
       <Comment
         title="Thousands of users, low conversion rate"
@@ -82,14 +97,10 @@ function Stayforlong() {
 
       <ImagePDP
         name01="src/assets/images/stayforlong/stayforlong-01.jpg"
-		  alt="Stayforlong project"
+        alt="Stayforlong project"
       />
 
-
-      <Title
-        number="02"
-        title="From zero to hero"
-      />
+      <Title number="02" title="From zero to hero" />
 
       <Comment
         title="No Design System"
@@ -119,15 +130,12 @@ function Stayforlong() {
         'enemies' in the market to distinguish ourselves."
       />
 
-      <ImagePDP 
+      <ImagePDP
         name01="src/assets/images/stayforlong/stayforlong-02.jpg"
-		  alt="Stayforlong project"
+        alt="Stayforlong project"
       />
 
-      <Title
-        number="03"
-        title="Let's get to know the product"
-      />
+      <Title number="03" title="Let's get to know the product" />
 
       <Comment
         title="Setting up a whole UX metrics system"
@@ -149,17 +157,12 @@ function Stayforlong() {
         rather than personal preferences. This proved to be a valuable learning experience during my time at the company."
       />
 
-
-      <ImagePDP 
+      <ImagePDP
         name01="src/assets/images/stayforlong/stayforlong-03.jpg"
-		  alt="Stayforlong project"
+        alt="Stayforlong project"
       />
 
-
-      <Title
-        number="04"
-        title="Discovery"
-      />
+      <Title number="04" title="Discovery" />
 
       <Comment
         title="Uncovering UX weaknesses"
@@ -180,16 +183,12 @@ function Stayforlong() {
         helped us pinpoint where and how to start addressing them."
       />
 
-
-      <ImagePDP 
+      <ImagePDP
         name01="src/assets/images/stayforlong/stayforlong-04.jpg"
-		  alt="Stayforlong project"
+        alt="Stayforlong project"
       />
 
-      <Title
-        number="05"
-        title="Exploration"
-      />
+      <Title number="05" title="Exploration" />
 
       <Comment
         title="Be brave"
@@ -202,15 +201,12 @@ function Stayforlong() {
         as the Product Designer). If there were any doubts about the selection, we validated them through quick user testing."
       />
 
-      <ImagePDP 
+      <ImagePDP
         name01="src/assets/images/stayforlong/stayforlong-05.jpg"
-		  alt="Stayforlong project"
+        alt="Stayforlong project"
       />
 
-      <Title
-        number="06"
-        title="Delivery"
-      />
+      <Title number="06" title="Delivery" />
 
       <Comment
         title="Specifying all requirements"
@@ -223,18 +219,14 @@ function Stayforlong() {
         text="The QA team and I ensured everything was in order by first testing in private local environments and then double-checking in production."
       />
 
-
-      <ImagePDP 
+      <ImagePDP
         name01="src/assets/images/stayforlong/stayforlong-06.jpg"
         name02="src/assets/images/stayforlong/stayforlong-07.jpg"
         name03="src/assets/images/stayforlong/stayforlong-08.jpg"
-		  alt="Stayforlong project"
+        alt="Stayforlong project"
       />
 
-      <Title
-        number="07"
-        title="And back to the start"
-      />
+      <Title number="07" title="And back to the start" />
 
       <Comment
         title="Never stop iterating"
@@ -246,13 +238,19 @@ function Stayforlong() {
         title="Case studies"
         text="These are three real case studies from this project: how we discovered the issues, what we did, what we achieved, and 
         what happened afterward. In other words, the entire design process."
-        button={<LinkSecondary label={"3 case studies"} href={"https://www.figma.com/proto/KffyTwXLMrHh47Z8ZYUARy/Case-Studies?page-id=178%3A1207&node-id=178-1208&p=f&viewport=-109%2C157%2C0.09&t=wu7ZTuyjLPSW3upm-1&scaling=contain&content-scaling=fixed&starting-point-node-id=178%3A1208"} iconSrc={'src/assets/icons/out.svg'} target="_blank"/>}
+        button={
+          <LinkSecondary
+            label={'3 case studies'}
+            href={
+              'https://www.figma.com/proto/KffyTwXLMrHh47Z8ZYUARy/Case-Studies?page-id=178%3A1207&node-id=178-1208&p=f&viewport=-109%2C157%2C0.09&t=wu7ZTuyjLPSW3upm-1&scaling=contain&content-scaling=fixed&starting-point-node-id=178%3A1208'
+            }
+            iconSrc={'src/assets/icons/out.svg'}
+            target="_blank"
+          />
+        }
       />
 
-
-      <Title
-        title="What I've learned from this project"
-      />
+      <Title title="What I've learned from this project" />
 
       <Comment
         title="Amazing enriching adventure"
@@ -266,19 +264,29 @@ function Stayforlong() {
 			<br />
 			Every day brought a new challenge, and that's what kept things exciting."
       />
-      
-      
+
       <MoreProjects
-        card01={<Card projectName="Mango" projectSubtitle="A fashion brand known for its modern clothing." access="private" totalImages={1}/>}
-        card02={<Card projectName="Huru" projectSubtitle="A NFT renting marketplace for gamers by gamers." access="public" totalImages={8}/>}
+        card01={
+          <Card
+            projectName="Mango"
+            projectSubtitle="A fashion brand known for its modern clothing."
+            access="private"
+            totalImages={1}
+          />
+        }
+        card02={
+          <Card
+            projectName="Huru"
+            projectSubtitle="A NFT renting marketplace for gamers by gamers."
+            access="public"
+            totalImages={8}
+          />
+        }
       />
 
-      
       <Footer />
-
     </>
-
-  );
-};
+  )
+}
 
 export default Stayforlong

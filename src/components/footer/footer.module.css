@@ -1,12 +1,13 @@
 .footer {
-    width: 100%;
-    max-width: var(--size-max-width);
-    margin: 0 auto;
-    padding: var(--space-l) var(--size-padding-lateral) 64px var(--size-padding-lateral);
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    align-content: flex-start;
-    gap: 24px;
-    flex-wrap: wrap;
+  width: 100%;
+  max-width: var(--size-max-width);
+  margin: 0 auto;
+  padding: var(--space-l) var(--size-padding-lateral) 64px
+    var(--size-padding-lateral);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 24px;
+  flex-wrap: wrap;
 }

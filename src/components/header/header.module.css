@@ -1,21 +1,20 @@
-
 .header {
-	position: fixed;
-	width: 100%;
-	max-width: var(--size-max-width);
-	margin: 0 auto;
-	padding: var(--space-s) var(--size-padding-lateral);
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-between;
-	z-index: 10;
+  position: fixed;
+  width: 100%;
+  max-width: var(--size-max-width);
+  margin: 0 auto;
+  padding: var(--space-s) var(--size-padding-lateral);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
 }
 
 .headerOptions {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	gap: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
 }

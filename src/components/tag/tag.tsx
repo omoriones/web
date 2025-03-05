@@ -1,15 +1,13 @@
-import classes from './tag.module.css';
+import classes from './tag.module.css'
 
 interface TagProps {
-    text: string;
+  text: string
 }
 
 export const Tag: React.FC<TagProps> = ({ text }) => {
-
   return (
-
-    <div className={classes.tag}><small>{text}</small></div>
-
-  );
-
-};
+    <div className={classes.tag}>
+      <small>{text}</small>
+    </div>
+  )
+}
